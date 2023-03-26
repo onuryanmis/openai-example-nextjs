@@ -1,0 +1,27 @@
+{
+    "moods": [
+        "Mutlu",
+        "Romantik",
+        "Hüzünlü",
+        "Hareketli",
+        "Motive",
+        "Sakin",
+        "Heyecanlı",
+        "Melankolik"
+    ],
+    "musicStyles": [
+        "Pop",
+        "Rock",
+        "Hip hop",
+        "Elektronik",
+        "Klasik",
+        "Jazz",
+        "Folk",
+        "Türk Sanat Müziği",
+        "Türk Halk Müziği",
+        "Alternatif",
+        "Latin",
+        "Opera",
+        "Enstrümantal"
+    ]
+}
