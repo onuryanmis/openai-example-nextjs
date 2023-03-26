@@ -7,12 +7,12 @@ import {getOptions, getValues} from "../../lib/select2";
 import {getMusicData} from "../../services/client";
 
 export default function HomePageContainer() {
-    const [selectedMusicStyleOptions, setSelectedMusicStyleOptions] = useState([]);
-    const [selectedMoodsOptions, setSelectedMoodsOptions] = useState([]);
-    const [favoriteSongs, setFavoriteSongs] = useState([]);
-    const [favoriteArtists, setFavoriteArtists] = useState([]);
-    const [showResult, setShowResult] = useState(false);
-    const [musicList, setMusicList] = useState([]);
+    const [selectedMusicStyleOptions, setSelectedMusicStyleOptions] = useState<any>([]);
+    const [selectedMoodsOptions, setSelectedMoodsOptions] = useState<any>([]);
+    const [favoriteSongs, setFavoriteSongs] = useState<any>([]);
+    const [favoriteArtists, setFavoriteArtists] = useState<any>([]);
+    const [showResult, setShowResult] = useState<any>(false);
+    const [musicList, setMusicList] = useState<any>([]);
 
     const handleSubmit = async () => {
         const data = await getMusicData({

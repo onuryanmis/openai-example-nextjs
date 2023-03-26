@@ -3,10 +3,10 @@ import React, {useState} from 'react';
 import './style.scss';
 import {BsMusicNoteBeamed} from "react-icons/bs";
 
-function TagsInput({tags, setTags}) {
+function TagsInput({tags, setTags}: any) {
     const [error, setError] = useState(false);
 
-    const handleKeyDown = (event) => {
+    const handleKeyDown = (event: any) => {
         if (event.key === 'Enter' && event.target.value.trim()) {
             if (tags.length >= 3) {
                 setError(true);
@@ -19,7 +19,7 @@ function TagsInput({tags, setTags}) {
         }
     };
 
-    const handleTagClick = (tag) => {
+    const handleTagClick = (tag: any) => {
         setTags(tags.filter((t) => t !== tag));
     };
 
